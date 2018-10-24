@@ -1,0 +1,147 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+/*.midden{
+    background-color: rgb(243, 243, 243);
+    width:90%;
+    margin: 0 100px;
+}*/
+.row>div {
+    /*border: solid 1px green;
+    display: flex;*/
+}
+
+body {
+    background-image: url("images/achtergrond.jpg");
+
+}
+
+/*tekst*/
+h1,h2,h3{
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Julius Sans One';
+    text-transform: uppercase;
+    text-align:center;
+    font-size: 4rem;
+    color: rgb(230, 175, 0);
+}
+
+h2 {
+    font-family: 'Dawning of a New Day', sans-serif;
+    font-size: 3rem;
+    color: rgb(230, 175, 0);
+}
+
+h3 {
+    font-size: 1rem;
+    color:rgb(230, 175, 0);
+    margin-right:50px;
+}
+h4{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    margin-right:50px; 
+    padding:20px;
+}
+h5{
+    font-family: 'Dawning of a New Day', sans-serif;
+    font-size: 20rem;
+    color: rgb(230, 175, 0);
+    bottom:150px;
+}
+p{
+    color:rgb(255, 255, 255);
+}
+.titelrij {
+    margin: 10px 0;
+}
+.tekst:hover .image{
+    opacity: 0.3;
+}
+/*poster*/
+.filmposter {
+    top: 50px;
+    z-index: 1;
+    width:100%;
+}
+.jaartal{
+    background:rgb(50, 50, 50);
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    padding:10px;
+}
+.nummer{
+    position: absolute;
+    Z-index:1;
+}
+.row {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/*knop*/
+button {
+    background-color: rgb(230, 175, 0);
+    padding: 10px 50px;
+    color: rgb(243, 243, 243);
+    margin-left: 50px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(243, 243, 243);
+    color: rgb(230, 175, 0);
+}
+
+.card1 {
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: 2px;
+    border-color: rgb(230, 175, 0);
+    border-style: solid;
+    background-color: rgb(50, 50, 50);
+}
+
+/*footer*/
+.footer{
+    color: rgb(243, 243, 243);
+    background-color: rgb(230, 175, 0);
+}
+
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}

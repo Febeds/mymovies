@@ -30,19 +30,19 @@ h1 {
     font-family: 'Julius Sans One';
     text-transform: uppercase;
     text-align:center;
-    font-size: 4rem;
-    color: rgb(230, 175, 0);
+    font-size: 3rem;
+    color: rgb(50, 50, 50);
 }
 
 h2 {
     font-family: 'Dawning of a New Day', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     color: rgb(230, 175, 0);
 }
 
 h3 {
     font-size: 1rem;
-    color:rgb(230, 175, 0);
+    color:rgb(50, 50, 50);
     margin-right:50px;
 }
 h4{
@@ -56,6 +56,12 @@ h5{
     font-size: 20rem;
     color: rgb(230, 175, 0);
     bottom:150px;
+}
+h6{
+    font-family: 'Dawning of a New Day', sans-serif;
+    font-size: 10rem;
+    text-align:center;
+    color: rgb(50, 50, 50);
 }
 p{
     color:rgb(255, 255, 255);
@@ -73,7 +79,7 @@ p{
     width:100%;
 }
 .jaartal{
-    background:rgb(50, 50, 50);
+    background:rgb(230, 175, 0);
     position: absolute;
     top: 50px;
     right: 15px;
@@ -82,6 +88,8 @@ p{
 .nummer{
     position: absolute;
     Z-index:1;
+    top:-100px;
+    left:-30px;
 }
 .row {
     padding-bottom: 30px;
@@ -92,7 +100,9 @@ button {
     background-color: rgb(230, 175, 0);
     padding: 10px 50px;
     color: rgb(243, 243, 243);
-    margin-left: 50px;
+    margin-top:20px;
+
+    margin-bottom:30px;
     border-radius: 10px;
 }
 button:hover {
@@ -105,16 +115,18 @@ button:hover {
     padding-right: 100px;
     padding-top: 30px;
     padding-bottom: 10px;
-    border: 2px;
-    border-color: rgb(230, 175, 0);
-    border-style: solid;
     background-color: rgb(50, 50, 50);
 }
-
 /*footer*/
+.logo img{
+width:150px;
+}
 .footer{
     color: rgb(243, 243, 243);
     background-color: rgb(230, 175, 0);
+    padding: 5px;
+    padding-left:20px;
+    text-align: center;
 }
 
 
@@ -129,7 +141,8 @@ button:hover {
 
 /* Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    }
 
 
 /* Medium devices (tablets, 768px and up)*/
